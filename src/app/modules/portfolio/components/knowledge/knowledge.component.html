@@ -1,0 +1,18 @@
+<div class="container">
+  <h2>Technologies</h2>
+  <ul>
+    @for(item of arrayKnowledge();track item){
+    <li [matTooltip]="item.tooltip">
+      <img
+        [src]="item.src"
+        [alt]="item.alt"
+        loading="lazy"
+        width="24px"
+        height="26px"
+        class="tech-icon"
+        (mouseenter)="onMouseEnter($event)"
+      />
+    </li>
+    }
+  </ul>
+</div>
