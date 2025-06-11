@@ -12,26 +12,6 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 export class KnowledgeComponent {
   public arrayKnowledge = signal<IKnowledge[]>([
     {
-      src: 'assets/icons/technologies/html5.svg',
-      alt: 'Ícone de conhecimento de html5',
-      tooltip: 'HTML5',
-    },
-    {
-      src: 'assets/icons/technologies/css.svg',
-      alt: 'Ícone de conhecimento de css',
-      tooltip: 'CSS3',
-    },
-    {
-      src: 'assets/icons/technologies/javascript.svg',
-      alt: 'Ícone de conhecimento de javascript',
-      tooltip: 'JavaScript/TypeScript',
-    },
-    {
-      src: 'assets/icons/technologies/angular.svg',
-      alt: 'Ícone de conhecimento de angular',
-      tooltip: 'Angular.js',
-    },
-    {
       src: 'assets/icons/technologies/react.svg',
       alt: 'Ícone de conhecimento de react',
       tooltip: 'React/Next.js',
@@ -39,12 +19,42 @@ export class KnowledgeComponent {
     {
       src: 'assets/icons/technologies/node.svg',
       alt: 'Ícone de conhecimento de node',
-      tooltip: 'Node/Nest.js',
+      tooltip: 'Node.js',
+    },
+    {
+      src: 'assets/icons/technologies/javascript.svg',
+      alt: 'Ícone de conhecimento de javascript',
+      tooltip: 'JavaScript/TypeScript',
+    },
+    {
+      src: 'assets/icons/technologies/go.svg',
+      alt: 'Ícone de conhecimento de go',
+      tooltip: 'Go',
+    },
+    {
+      src: 'assets/icons/technologies/angular.svg',
+      alt: 'Ícone de conhecimento de angular',
+      tooltip: 'Angular',
+    },
+    {
+      src: 'assets/icons/technologies/vue.svg',
+      alt: 'Ícone de conhecimento de vue',
+      tooltip: 'Vue.js',
     },
     {
       src: 'assets/icons/technologies/java.svg',
       alt: 'Ícone de conhecimento de java',
       tooltip: 'Java',
+    },
+    {
+      src: 'assets/icons/technologies/docker.svg',
+      alt: 'Ícone de conhecimento de docker',
+      tooltip: 'Docker',
+    },
+    {
+      src: 'assets/icons/technologies/github.svg',
+      alt: 'Ícone de conhecimento do Github',
+      tooltip: 'GitHub/GitLab',
     },
   ]);
 
